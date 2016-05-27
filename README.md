@@ -3,6 +3,7 @@ Examples of Oozie java actions
 
 ## Hive action
 Purpose of custom Hive action is to capture output from Hive query. Also it might be useful for querying remote clusters.
+Some more details i've desribed in my blog: http://www.dataprocessingtips.com/2016/05/27/apache-oozie-capture-output-hive-query/
 ### Usage:
 ```XML
 <action name="get_max_timestamp">
